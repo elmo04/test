@@ -2289,12 +2289,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MnjmrTaYXTTo2PzGP7Uc" name="Flagging process">
-    <mxGraphModel dx="1143" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lj1oHC6b-n7nhxrhagU5-1" value="Flags" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="150" width="180" height="240" as="geometry" />
+          <mxGeometry x="50" y="50" width="180" height="240" as="geometry" />
         </mxCell>
         <mxCell id="lj1oHC6b-n7nhxrhagU5-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="lj1oHC6b-n7nhxrhagU5-1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -2317,7 +2317,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lj1oHC6b-n7nhxrhagU5-7" value="flagged?" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="lj1oHC6b-n7nhxrhagU5-5">
+        <mxCell id="lj1oHC6b-n7nhxrhagU5-7" value="flagged_status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="lj1oHC6b-n7nhxrhagU5-5">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2386,6 +2386,70 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kT5bb_rS9nQ8Se77FsIj-1" target="kT5bb_rS9nQ8Se77FsIj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kT5bb_rS9nQ8Se77FsIj-2" target="nfiCaQqpcgnpSQbPkV5P-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-2" value="Admin&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;flags resume&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sending initial email&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kT5bb_rS9nQ8Se77FsIj-8" target="kT5bb_rS9nQ8Se77FsIj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kT5bb_rS9nQ8Se77FsIj-8" target="nfiCaQqpcgnpSQbPkV5P-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-8" value="Manager hits&amp;nbsp;&lt;div&gt;Notify or Already Notified&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="340" width="165" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kT5bb_rS9nQ8Se77FsIj-11" target="nfiCaQqpcgnpSQbPkV5P-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-11" value="Send email to employee" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-13" value="Notify" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kT5bb_rS9nQ8Se77FsIj-15" target="nfiCaQqpcgnpSQbPkV5P-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kT5bb_rS9nQ8Se77FsIj-15" value="Remind employee to update daily" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="695" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nfiCaQqpcgnpSQbPkV5P-1" target="nfiCaQqpcgnpSQbPkV5P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-1" value="Notify manager &amp;amp; admin when resume gets updated" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="805" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-3" value="Set flagged status as unflagged" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nfiCaQqpcgnpSQbPkV5P-5" target="kT5bb_rS9nQ8Se77FsIj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-5" value="Set flagged status as flagged" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nfiCaQqpcgnpSQbPkV5P-17" target="kT5bb_rS9nQ8Se77FsIj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-17" value="Set flagged status as under review" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfiCaQqpcgnpSQbPkV5P-21" value="Already notified" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="515" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
